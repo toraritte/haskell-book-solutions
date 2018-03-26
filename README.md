@@ -10,6 +10,11 @@ From the command line:
   5. `git push origin add-solution`
   6. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/)
 
-([Don't be afraid to commit](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html))
+Helpful `git` resources:
+
+  + [Don't be afraid to commit](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
+  + [The Github Blog - Working with submodules](https://blog.github.com/2016-02-01-working-with-submodules/)
+  + [Stackoverflow - Add git submodule with a different name](https://stackoverflow.com/questions/26215625/name-option-doesnt-work-with-git-submodule-add-command)
+  + [Stackoverflow - How do I remove a git submodule?](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule#answer-1260982)
 
 A list of solutions are available at https://github.com/CarlosMChica/haskell-book-readers-exercises but it hasn't been updated for a couple months now.
