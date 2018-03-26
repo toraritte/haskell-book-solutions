@@ -34,3 +34,12 @@
 [submodule "Nenlantea"]
 	path = Nenlantea
 	url = https://github.com/Nenlantea/LetiLearningHaskell.git
+[submodule "gvolpe"]
+	path = gvolpe
+	url = https://github.com/gvolpe/haskell-book-exercises.git
+[submodule "jasonkuhrt"]
+	path = jasonkuhrt
+	url = https://github.com/jasonkuhrt/hpfp-answers.git
+[submodule "nettok"]
+	path = nettok
+	url = https://github.com/nettok/haskellbook-exercises.git
