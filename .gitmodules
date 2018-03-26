@@ -1,3 +1,36 @@
 [submodule "CarlosMChica"]
 	path = CarlosMChica
 	url = https://github.com/CarlosMChica/HaskellBook
+[submodule "PaNaVTEC"]
+	path = PaNaVTEC
+	url = https://github.com/PaNaVTEC/haskellbook.git
+[submodule "MattJOlson"]
+	path = MattJOlson
+	url = https://github.com/MattJOlson/Haskellbook.git
+[submodule "mukeshsoni"]
+	path = mukeshsoni
+	url = https://github.com/mukeshsoni/haskell-programming-book.git
+[submodule "dmvianna"]
+	path = dmvianna
+	url = https://github.com/dmvianna/haskellbook.git
+[submodule "abevoelker"]
+	path = abevoelker
+	url = https://github.com/abevoelker/haskellbook-solutions.git
+[submodule "ArulselvanMadhavan"]
+	path = ArulselvanMadhavan
+	url = https://github.com/ArulselvanMadhavan/haskell-first-principles.git
+[submodule "abinr"]
+	path = abinr
+	url = https://github.com/abinr/hbook.git
+[submodule "galderz"]
+	path = galderz
+	url = https://github.com/galderz/haskell-sandbox.git
+[submodule "radusw"]
+	path = radusw
+	url = https://github.com/radusw/hpffp.git
+[submodule "OCExercise"]
+	path = OCExercise
+	url = https://github.com/OCExercise/haskellbook-solutions.git
+[submodule "Nenlantea"]
+	path = Nenlantea
+	url = https://github.com/Nenlantea/LetiLearningHaskell.git
