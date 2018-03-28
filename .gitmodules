@@ -46,3 +46,33 @@
 [submodule "evturn"]
 	path = evturn
 	url = https://github.com/evturn/haskellbook
+[submodule "thewoolleyman"]
+	path = thewoolleyman
+	url = https://github.com/thewoolleyman/haskellbook.git
+[submodule "larrybotha"]
+	path = larrybotha
+	url = https://github.com/larrybotha/haskell-book.git
+[submodule "johnchandlerburnham"]
+	path = johnchandlerburnham
+	url = https://github.com/johnchandlerburnham/haskellbook.git
+[submodule "andrewMacmurray"]
+	path = andrewMacmurray
+	url = https://github.com/andrewMacmurray/haskell-book-solutions.git
+[submodule "Tclv"]
+	path = Tclv
+	url = https://github.com/Tclv/HaskellBook.git
+[submodule "txels"]
+	path = txels
+	url = https://github.com/txels/haskellbook.git
+[submodule "dwayne"]
+	path = dwayne
+	url = https://github.com/dwayne/haskell-programming.git
+[submodule "yamad"]
+	path = yamad
+	url = https://github.com/yamad/haskellbook-hpfp.git
+[submodule "prikhi"]
+	path = prikhi
+	url = https://github.com/prikhi/haskell-book.git
+[submodule "willprice"]
+	path = willprice
+	url = https://github.com/willprice/haskell-book.git
