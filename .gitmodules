@@ -43,3 +43,6 @@
 [submodule "nettok"]
 	path = nettok
 	url = https://github.com/nettok/haskellbook-exercises.git
+[submodule "evturn"]
+	path = evturn
+	url = https://github.com/evturn/haskellbook
