@@ -41,6 +41,15 @@ testUnfold = unfold go
 -- 2. Make a tree builder.
 --------------------------
 -- See custom Show instance for BinaryTree on top.
+--
+-- UPDATE:
+--   Writing one function to any custom representations is the way to go:
+--       parsonsmatt [9:49 AM]
+--       @toraritte `Show` is best used for debugging a data structure in a way
+--       that looks like the internal representation. It is almost always correct
+--       to derive it, and rarely a good idea to implement it yourself. If you
+--       want a specific rendering function, you should make a specific function.
+
 treeBuild :: Integer -> BinaryTree Integer
 treeBuild i = unfold go 0
   where
