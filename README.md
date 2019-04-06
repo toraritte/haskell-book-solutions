@@ -1,4 +1,18 @@
-Each repo is added as a git submodule. To add yours, create a pull request.
+Each repo is added as a git submodule, and each directory leads to the solutions repo of the given contributor. Entries that are not shown as links are hosted on platforms other than Github (e.g., Gitlab), and links to those should be part of the last commit message (see `ptrfrncsmrph` for example).
+
+## Cloning this repo WITH submodules
+
+[This Stackoverflow question](https://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules) is very helpful, but the gist is:
+
++ clone **all** repos:  
+  `git clone --recurse-submodules https://github.com/sac-fp/HaskellBook-solutions.git`
+
++ clone **specific** repo(s):  
+  `git clone --recurse-submodules=ptrfrncsmrph --recurse-submodules=txels https://github.com/sac-fp/HaskellBook-solutions.git`
+
+See more at section `--recurse-submodules` in `git help clone`.
+
+## How to add your solutions repo
 
 From the command line:
 
@@ -10,7 +24,7 @@ From the command line:
   5. `git push origin add-solution`
   6. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/)
 
-Helpful `git` resources:
+## Helpful `git` resources:
 
   + [Don't be afraid to commit](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
   + [The Github Blog - Working with submodules](https://blog.github.com/2016-02-01-working-with-submodules/)
