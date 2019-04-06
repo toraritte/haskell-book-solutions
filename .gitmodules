@@ -82,3 +82,6 @@
 [submodule "ptrfrncsmrph"]
 	path = ptrfrncsmrph
 	url = https://gitlab.com/ptrfrncsmrph/haskell-book
+[submodule "dalpd"]
+	path = dalpd
+	url = https://github.com/dalpd/haskellbook-code
