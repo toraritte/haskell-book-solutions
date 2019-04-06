@@ -79,3 +79,6 @@
 [submodule "scarvalhojr"]
 	path = scarvalhojr
 	url = https://github.com/scarvalhojr/haskellbook
+[submodule "ptrfrncsmrph"]
+	path = ptrfrncsmrph
+	url = https://gitlab.com/ptrfrncsmrph/haskell-book
