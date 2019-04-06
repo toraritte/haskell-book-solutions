@@ -76,3 +76,6 @@
 [submodule "willprice"]
 	path = willprice
 	url = https://github.com/willprice/haskell-book.git
+[submodule "scarvalhojr"]
+	path = scarvalhojr
+	url = https://github.com/scarvalhojr/haskellbook
