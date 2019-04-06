@@ -2,7 +2,7 @@ Each repo is added as a git submodule, and each directory leads to the solutions
 
 ## Cloning this repo WITH submodules
 
-[This Stackoverflow question](https://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules) is very helpful, but the gist is:
+Stackoverflow questions [1](https://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules) and [2](https://stackoverflow.com/questions/16728866/how-to-only-update-specific-git-submodules) are very helpful, but the gist is:
 
 + clone **all** repos:  
   `git clone --recurse-submodules https://github.com/sac-fp/HaskellBook-solutions.git`
