@@ -43,6 +43,6 @@ a f a = a
 -- a = seq
 
 -- 8.
-a` :: (a -> b) -> a -> b
-a` f a = f a
--- a` = ($)
+a' :: (a -> b) -> a -> b
+a' f a = f a
+-- a' = ($)
