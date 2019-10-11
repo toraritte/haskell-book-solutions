@@ -23,4 +23,3 @@ mult a b = b + (mult (a-1) b)
 mult2 :: (Integral a) => a -> a -> a
 mult2 1 b = b
 mult2 a b = (+b) . (mult (a-1)) $ b
-

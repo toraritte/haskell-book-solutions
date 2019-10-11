@@ -1,14 +1,6 @@
 module MyEnumFromTo where
 
-eftBool :: Bool -> Bool -> [Bool]
-eftBool a b =
-  case a == True of
-    True  -> [True, False]
-    False -> [False, True]
-
--- All of the eft* functions would eventually look the
--- same as they all have instances of Enum and Ord,
--- therefore:
+-- 2018 (?) First try (wow, did I overcomplicate things)
 eft :: (Enum a, Ord a) => a -> a -> [a]
 eft a b
   | a == b                      = [a]
@@ -18,6 +10,16 @@ eft a b
         go from to lst
          | from == to = lst ++ [to]
          | otherwise  = go (succ from) to (lst ++ [from])
+
+-- 2019/10/10 Somewhat simpler...:)
+eft2 :: (Enum a, Ord a) => a -> a -> [a]
+eft2 from to
+  | from > to  = []
+  | from == to = [to]
+  | from < to  = from : (eft2 (succ from) to)
+
+eftBool :: Bool -> Bool -> [Bool]
+eftBool = eft
 
 eftOrd :: Ordering
        -> Ordering
