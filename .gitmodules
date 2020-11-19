@@ -85,3 +85,6 @@
 [submodule "dalpd"]
 	path = dalpd
 	url = https://github.com/dalpd/haskellbook-code
+[submodule "parry84"]
+	path = parry84
+	url = https://github.com/parry84/haskell-book
